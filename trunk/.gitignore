@@ -1,4 +1,6 @@
 src
+pkg
+*.pkg.tar.xz
 *.bz2
 *.gz
 *.asc
