@@ -108,7 +108,7 @@ package() {
 	rm -rf "${pkgdir}/usr/share/httpd/manual"
 	rm -rf "${pkgdir}/etc/httpd/conf/original"
 	rm -rf "${pkgdir}/srv/"
-	rm -rf "${pkgdir}/var/run"
+	rm -rf "${pkgdir}/run"
 
 
 	install -m755 -d "${pkgdir}/usr/lib/systemd/system"
